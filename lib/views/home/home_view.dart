@@ -43,7 +43,7 @@ class _HomeState extends State<HomeView> {
                 city: city,
               );
             }),
-            RaisedButton(
+            ElevatedButton(
               child: Text('modal'),
               onPressed: () {
                 openModal(context);
