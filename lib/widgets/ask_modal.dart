@@ -41,7 +41,8 @@ class AskModal extends StatelessWidget {
                       onPressed: () {
                         Navigator.pop(context, 'ok');
                       },
-                      style: ElevatedButton.styleFrom(primary: Colors.blue),
+                      style:
+                          ElevatedButton.styleFrom(primary: Colors.redAccent),
                     ),
                     ElevatedButton(
                       child: Text('annuler'),
